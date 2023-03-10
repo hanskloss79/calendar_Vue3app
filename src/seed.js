@@ -1,43 +1,43 @@
 export const seedData = [
   {
     id: 1,
-    abbvTitle: 'Mon',
-    fullTitle: 'Monday',
+    abbvTitle: 'Pon',
+    fullTitle: 'Poniedziałek',
     events: [
-      { details: 'Get Groceries', edit: false },
-      { details: 'Carpool', edit: false }
+      { details: 'Zrobić zakupy', edit: false },
+      { details: 'Podwózka', edit: false }
     ],
-    active: true
+    active: false
   },
   {
     id: 2,
-    abbvTitle: 'Tue',
-    fullTitle: 'Tuesday',
+    abbvTitle: 'Wto',
+    fullTitle: 'Wtorek',
     events: [
-      { details: 'Yoga/Gym', edit: false }
+      { details: 'Joga/Siłownia', edit: false }
     ],
     active: false
   },
   {
     id: 3,
-    abbvTitle: 'Wed',
-    fullTitle: 'Wednesday',
+    abbvTitle: 'Śro',
+    fullTitle: 'Środa',
     events: [
-      { details: 'Work social', edit: false }
+      { details: 'Prace społeczne', edit: false }
     ],
-    active: false
+    active: true
   },
   {
     id: 4,
-    abbvTitle: 'Thu',
-    fullTitle: 'Thursday',
+    abbvTitle: 'Czw',
+    fullTitle: 'Czwartek',
     events: [],
     active: false
   },
   {
     id: 5,
-    abbvTitle: 'Fri',
-    fullTitle: 'Friday',
+    abbvTitle: 'Pią',
+    fullTitle: 'Piątek',
     events: [
       { details: 'Friday dinner/drinks', edit: false }
     ],
@@ -45,8 +45,8 @@ export const seedData = [
   },
   {
     id: 6,
-    abbvTitle: 'Sat',
-    fullTitle: 'Saturday',
+    abbvTitle: 'Sob',
+    fullTitle: 'Sobota',
     events: [
       { details: 'Chill with the parents', edit: false }
     ],
@@ -54,8 +54,8 @@ export const seedData = [
   },
   {
     id: 7,
-    abbvTitle: 'Sun',
-    fullTitle: 'Sunday',
+    abbvTitle: 'Nie',
+    fullTitle: 'Niedziela',
     events: [
       { details: 'Netflix/Chill', edit: false }
     ],
